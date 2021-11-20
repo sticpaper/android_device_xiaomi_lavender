@@ -58,6 +58,7 @@ VENDOR_SECURITY_PATCH := 2021-06-01
 #SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 #SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy-minimal
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Inherit the proprietary files
 include vendor/xiaomi/lavender/BoardConfigVendor.mk
