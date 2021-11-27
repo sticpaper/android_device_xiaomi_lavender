@@ -131,3 +131,13 @@ BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 # Android Verified Boot
 BOARD_AVB_ENABLE := false
 BOARD_BUILD_DISABLED_VBMETAIMAGE := true
+
+#SHRP_Variables
+SHRP_DEVICE_CODE := lavender
+SHRP_PATH := device/xiaomi/lavender
+SHRP_MAINTAINER :=  Canary233
+SHRP_REC_TYPE :=  Treble
+SHRP_DEVICE_TYPE :=  SAR
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_EDL_MODE := 0
+SHRP_FLASH := 1 
