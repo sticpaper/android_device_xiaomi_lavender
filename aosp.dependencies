@@ -11,9 +11,9 @@
     "branch": "twelve"
   },
   {
-    "repository": "ticklemykettle/vendor_xiaomi_lavender",
+    "repository": "vendor_xiaomi_lavender",
     "target_path": "vendor/xiaomi/lavender",
     "branch": "twelve",
-    "remote": "github"
+    "remote": "pixel-devices-blobs"
   }
 ]
