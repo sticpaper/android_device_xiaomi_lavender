@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/exthm_lavender.mk
+    $(LOCAL_DIR)/miku_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    exthm_lavender-user \
-    exthm_lavender-userdebug \
-    exthm_lavender-eng
+    miku_lavender-user \
+    miku_lavender-userdebug \
+    miku_lavender-eng
